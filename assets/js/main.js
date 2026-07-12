@@ -26,6 +26,48 @@ const vehicles = [
         ],
         description: "2025 Model Volta VS1 Elektrikli Motosiklet. 5.800 km'dedir. 2000 Watt arka motoru sayesinde 50 km/h hıza ulaşabilir ve 50 km menzil sunar. Ekstra olarak 6 akülü olup yerle bir yani basıktır. Amerikan park modülü, uzaktan kumandalı RGB ampul, arka çakarlı sinyaller, angel eye far tasarımı, karbon yarasa aynalar, karbon kaplamaları ve arka katlanır plakası ile özenle modifiye edilmiştir. Kozmetik ve yürür olarak kusursuzdur.",
         location: "Mersin / Yenişehir"
+    },
+    {
+        id: 2,
+        title: "Citroën C3 1.4 16V (90 HP)",
+        category: "car",
+        year: 2004,
+        km: "255.000",
+        fuel: "Dizel",
+        transmission: "Manuel / 90 HP",
+        price: "340.000 TL",
+        color: "Siyah",
+        status: "available",
+        image: "assets/img/vehicles/c3_3.jpg",
+        images: [
+            "assets/img/vehicles/c3_3.jpg",
+            "assets/img/vehicles/c3_4.jpg",
+            "assets/img/vehicles/c3_1.jpg",
+            "assets/img/vehicles/c3_2.jpg"
+        ],
+        description: "2004 Model Citroën C3 1.4 16V 90 HP Dizel. 255.000 km'dedir. Alt takımları yeni yapılmıştır (4 günlük). Araba kupası düzgün ve diridir. Komple boyalıdır ve tavanda folyo bulunmaktadır. Enjektör bakımı yapılması gerekmektedir (arada sıra siyah duman atmaktadır). Detaylı bilgi almak için bizimle iletişime geçebilirsiniz.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 3,
+        title: "Motolux Nirvana Pro (80cc Yükseltilmiş)",
+        category: "motorcycle",
+        year: 2022,
+        km: "14.000",
+        fuel: "Benzin",
+        transmission: "Otomatik / 80cc",
+        price: "31.500 TL",
+        color: "Beyaz",
+        status: "available",
+        image: "assets/img/vehicles/nirvana_1.jpg",
+        images: [
+            "assets/img/vehicles/nirvana_1.jpg",
+            "assets/img/vehicles/nirvana_3.jpg",
+            "assets/img/vehicles/nirvana_4.jpg",
+            "assets/img/vehicles/nirvana_2.jpg"
+        ],
+        description: "2022 Model Motolux Nirvana Pro. Ruhsatta 50cc olarak geçmektedir, B sınıfı ehliyetle kullanılabilir ve MTV ile zorunlu trafik sigortasından muaftır. Fabrikasyon olarak 80cc silindir hacmine yükseltilmiştir. 14.000 km'dedir. Varyatör kayışı ve motor yağı yeni değişmiştir. Dijital ekranlı modeldir. Kozmetik ve mekanik durumu oldukça iyi durumdadır.",
+        location: "Mersin / Yenişehir"
     }
 ];
 
@@ -167,7 +209,15 @@ window.openDetails = function(vehicleId) {
     
     // Fill values
     document.getElementById('modalImg').src = vehicle.image;
-    document.getElementById('modalCategory').textContent = "Motosiklet";
+    
+    // Category mapping
+    const categories = {
+        'motorcycle': 'Motosiklet',
+        'car': 'Otomobil'
+    };
+    const categoryText = categories[vehicle.category] || vehicle.category;
+    
+    document.getElementById('modalCategory').textContent = categoryText;
     document.getElementById('modalTitle').textContent = vehicle.title;
     document.getElementById('modalPrice').textContent = vehicle.price;
     document.getElementById('modalDesc').textContent = vehicle.description;
@@ -177,7 +227,7 @@ window.openDetails = function(vehicleId) {
     document.getElementById('specFuel').textContent = vehicle.fuel;
     document.getElementById('specTransmission').textContent = vehicle.transmission;
     document.getElementById('specColor').textContent = vehicle.color;
-    document.getElementById('specBody').textContent = "Motosiklet";
+    document.getElementById('specBody').textContent = vehicle.body || categoryText;
     document.getElementById('specLocation').textContent = vehicle.location;
     
     // Status text & class

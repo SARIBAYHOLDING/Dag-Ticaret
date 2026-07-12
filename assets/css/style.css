@@ -963,6 +963,10 @@ img {
     color: var(--whatsapp-color);
 }
 
+.instagram-color {
+    color: #e1306c;
+}
+
 .social-card-text {
     display: flex;
     flex-direction: column;
