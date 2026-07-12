@@ -20,13 +20,9 @@ const vehicles = [
             "assets/img/vehicles/volta_side.jpg",
             "assets/img/vehicles/volta_front.jpg",
             "assets/img/vehicles/volta_rear.jpg",
+            "assets/img/vehicles/volta_console.jpg",
             "assets/img/vehicles/volta_dash.jpg",
-            "assets/img/vehicles/volta_rack.jpg",
-            "assets/img/vehicles/volta4.jpg",
-            "assets/img/vehicles/volta1.jpg",
-            "assets/img/vehicles/volta2.jpg",
-            "assets/img/vehicles/volta3.jpg",
-            "assets/img/vehicles/volta5.jpg"
+            "assets/img/vehicles/volta_rack.jpg"
         ],
         description: "2025 Model Volta VS1 Elektrikli Motosiklet. 5.800 km'dedir. 2000 Watt arka motoru sayesinde 50 km/h hıza ulaşabilir ve 50 km menzil sunar. Ekstra olarak 6 akülü olup yerle bir yani basıktır. Amerikan park modülü, uzaktan kumandalı RGB ampul, arka çakarlı sinyaller, angel eye far tasarımı, karbon yarasa aynalar, karbon kaplamaları ve arka katlanır plakası ile özenle modifiye edilmiştir. Kozmetik ve yürür olarak kusursuzdur.",
         location: "Mersin / Yenişehir"
