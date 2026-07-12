@@ -15,8 +15,13 @@ const vehicles = [
         price: "İletişime Geçin",
         color: "Beyaz",
         status: "available", // available, sold
-        image: "assets/img/vehicles/volta4.jpg",
+        image: "assets/img/vehicles/volta_side.jpg",
         images: [
+            "assets/img/vehicles/volta_side.jpg",
+            "assets/img/vehicles/volta_front.jpg",
+            "assets/img/vehicles/volta_rear.jpg",
+            "assets/img/vehicles/volta_dash.jpg",
+            "assets/img/vehicles/volta_rack.jpg",
             "assets/img/vehicles/volta4.jpg",
             "assets/img/vehicles/volta1.jpg",
             "assets/img/vehicles/volta2.jpg",
