@@ -68,6 +68,50 @@ const vehicles = [
         ],
         description: "2022 Model Motolux Nirvana Pro. Ruhsatta 50cc olarak geçmektedir, B sınıfı ehliyetle kullanılabilir ve MTV ile zorunlu trafik sigortasından muaftır. Fabrikasyon olarak 80cc silindir hacmine yükseltilmiştir. 14.000 km'dedir. Varyatör kayışı ve motor yağı yeni değişmiştir. Dijital ekranlı modeldir. Kozmetik ve mekanik durumu oldukça iyi durumdadır.",
         location: "Mersin / Yenişehir"
+    },
+    {
+        id: 4,
+        title: "Volkswagen Passat 1.6 TDI Trendline",
+        category: "car",
+        year: 2015,
+        km: "244.000",
+        fuel: "Dizel",
+        transmission: "Otomatik / 120 HP",
+        price: "1.070.000 TL",
+        color: "Beyaz",
+        status: "available",
+        image: "assets/img/vehicles/passat_1.jpg",
+        images: [
+            "assets/img/vehicles/passat_1.jpg",
+            "assets/img/vehicles/passat_2.jpg",
+            "assets/img/vehicles/passat_3.jpg",
+            "assets/img/vehicles/passat_4.jpg",
+            "assets/img/vehicles/passat_5.jpg"
+        ],
+        description: "2015 Model Volkswagen Passat 1.6 TDI Trendline. 244.000 km'dedir. Ön üç parça değişendir. Ağır hasar kaydı kesinlikle yoktur, airbagler orijinaldir. Sadece çamurluk montajından dolayı podyenin birinin ucunda ufak bir işlem vardır. Şanzıman tüpü yeni yapılmış, şanzıman yağı değişmiştir ve tüm bakımları yeni tamamlanmıştır.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 5,
+        title: "Peugeot 207 1.6 HDi Allure",
+        category: "car",
+        year: 2012,
+        km: "289.000",
+        fuel: "Dizel",
+        transmission: "Manuel / 92 HP",
+        price: "530.000 TL",
+        color: "Açık Mavi",
+        status: "available",
+        image: "assets/img/vehicles/peugeot_1.jpg",
+        images: [
+            "assets/img/vehicles/peugeot_1.jpg",
+            "assets/img/vehicles/peugeot_2.jpg",
+            "assets/img/vehicles/peugeot_3.jpg",
+            "assets/img/vehicles/peugeot_4.jpg",
+            "assets/img/vehicles/peugeot_5.jpg"
+        ],
+        description: "2012 Model Peugeot 207 Allure Paket. 289.000 km'dedir ve aktif olarak kullanılmaktadır. Sadece sol ön çamurluk boyalı olup hasar kaydı bulunmamaktadır. Tüm bakımları yeni yapılmış, son derece bakımlı ve temiz bir araçtır.",
+        location: "Mersin / Yenişehir"
     }
 ];
 
