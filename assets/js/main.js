@@ -121,7 +121,7 @@ const vehicles = [
         km: "14.500",
         fuel: "Benzin",
         transmission: "Otomatik / 100cc",
-        price: "İletişime Geçin",
+        price: "35.000 TL",
         color: "Kırmızı / Siyah",
         status: "available",
         image: "assets/img/vehicles/kuba_1.jpg",
