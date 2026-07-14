@@ -112,8 +112,53 @@ const vehicles = [
         ],
         description: "2012 Model Peugeot 207 Allure Paket. 289.000 km'dedir ve aktif olarak kullanılmaktadır. Sadece sol ön çamurluk boyalı olup hasar kaydı bulunmamaktadır. Tüm bakımları yeni yapılmış, son derece bakımlı ve temiz bir araçtır.",
         location: "Mersin / Yenişehir"
+    },
+    {
+        id: 6,
+        title: "Kuba Brilliant 50 Max (100cc Yükseltilmiş)",
+        category: "motorcycle",
+        year: 2023,
+        km: "14.500",
+        fuel: "Benzin",
+        transmission: "Otomatik / 100cc",
+        price: "İletişime Geçin",
+        color: "Kırmızı / Siyah",
+        status: "available",
+        image: "assets/img/vehicles/kuba_1.jpg",
+        images: [
+            "assets/img/vehicles/kuba_1.jpg",
+            "assets/img/vehicles/kuba_2.jpg",
+            "assets/img/vehicles/kuba_3.jpg",
+            "assets/img/vehicles/kuba_4.jpg"
+        ],
+        description: "2023 Model Kuba Brilliant 50 Max. 14.500 km'dedir. Tüm sıvı ve ağır bakımları yeni yapılmıştır. İhtiyaç nedeniyle satılıktır. Diğer 50cc motorlar gibi hantal değildir, 100cc silindir hacmine yükseltilmiştir, dolayısıyla 100cc gücünde gitmektedir. Çekişi, gidişi ve konforu oldukça iyidir. Kozmetik olarak temiz durumdadır. B sınıfı ehliyetle kullanılabilir, vergi ve sigortadan muaftır.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 7,
+        title: "Musatti Glamaro Max 125",
+        category: "motorcycle",
+        year: 2025,
+        km: "1.800",
+        fuel: "Benzin",
+        transmission: "Otomatik / 125cc",
+        price: "80.000 TL",
+        color: "Mat Mavi",
+        status: "available",
+        image: "assets/img/vehicles/musatti_4.jpg",
+        images: [
+            "assets/img/vehicles/musatti_4.jpg",
+            "assets/img/vehicles/musatti_1.jpg",
+            "assets/img/vehicles/musatti_2.jpg",
+            "assets/img/vehicles/musatti_3.jpg",
+            "assets/img/vehicles/musatti_5.jpg"
+        ],
+        description: "2025 Model Musatti Glamaro Max 125. Sadece 1.800 km'dedir. Navigasyon, kamera, ekran yansıtma özellikli dijital gösterge paneline sahiptir. Anahtarsız çalıştırma (Keyless Go) aktiftir. Arka çantası ruhsata işlidir. Muayenesi 24.01.2028 tarihine kadar geçerlidir. Sıfır ayarında, son derece teknolojik, konforlu ve temiz bir motordur.",
+        location: "Mersin / Yenişehir"
     }
 ];
+
+
 
 // Active Filter States
 let currentFilter = 'all';
