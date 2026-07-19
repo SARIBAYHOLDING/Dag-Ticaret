@@ -5,6 +5,107 @@
 // Vehicle Database (Volta VS1 Electric Motor)
 const vehicles = [
     {
+        id: 12,
+        title: "Tofaş Şahin 1.6 (Çekme Belgeli)",
+        category: "car",
+        year: 1995,
+        km: "Belirtilmemiş",
+        fuel: "Benzin / LPG",
+        transmission: "Manuel",
+        price: "80.000 TL",
+        color: "Beyaz",
+        status: "available",
+        image: "assets/img/vehicles/tofas_1.jpg",
+        images: [
+            "assets/img/vehicles/tofas_1.jpg",
+            "assets/img/vehicles/tofas_2.jpg",
+            "assets/img/vehicles/tofas_3.jpg"
+        ],
+        description: "1995 model Tofaş Şahin. Çekme belgelidir, yürüründe hiçbir eksiği yoktur. Ön ve arka amortisörler sıfır, balatalar sıfır, kampanalar sıfırdır. Kayış, marş motoru, baskı balata yenilenmiştir. Motor yağı ve şanzıman yağı dahil olmak üzere tüm ağır ve sıvı bakımları yeni yapılmıştır. Motoru sıfır yapılı olup çürüğü çarığı kesinlikle yoktur. Pazarlıksız son fiyattır.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 11,
+        title: "RKS RZ125X (Adventure)",
+        category: "motorcycle",
+        year: 2024,
+        km: "6.622",
+        fuel: "Benzin",
+        transmission: "Manuel / 125cc",
+        price: "75.000 TL",
+        color: "Siyah",
+        status: "available",
+        image: "assets/img/vehicles/rz125_1.jpg",
+        images: [
+            "assets/img/vehicles/rz125_1.jpg",
+            "assets/img/vehicles/rz125_2.jpg",
+            "assets/img/vehicles/rz125_4.jpg",
+            "assets/img/vehicles/rz125_3.jpg"
+        ],
+        description: "2024 model RKS RZ125X Adventure. Yetkili bayiden sıfır alınmış olup alt takımı hiç açılmamıştır. Kazası belası ve hasar kaydı kesinlikle yoktur. Ağır bakımları yeni yapılmıştır. Kapalı alanda muhafaza edilmektedir, sadece haftada 1-2 kez kısa sürüşler yapılmıştır. Ufak tefek çizikleri mevcuttur. Sepet (arka çanta) ve koruma demirleriyle birlikte verilecektir. 75.000 TL istenmekte olup ufak bir pazarlık payı vardır.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 10,
+        title: "Kuba New City 125",
+        category: "motorcycle",
+        year: 2024,
+        km: "9.000",
+        fuel: "Benzin",
+        transmission: "Otomatik / 125cc",
+        price: "70.000 TL",
+        color: "Siyah",
+        status: "available",
+        image: "assets/img/vehicles/newcity_1.jpg",
+        images: [
+            "assets/img/vehicles/newcity_1.jpg"
+        ],
+        description: "2024 model Kuba New City 125. Hasar kaydı yoktur, garantisi bulunmamaktadır. Bakımları zamanında ve düzenli yapılmıştır, sorunsuz çalışan durumdadır. Arka çanta ruhsata işlidir. Acil satılıktır, pazarlık payı vardır. İletişim için: 0537 575 56 46",
+        location: "Mersin"
+    },
+    {
+        id: 9,
+        title: "RKS SRK 250RR (Amerikan Parklı)",
+        category: "motorcycle",
+        year: 2024,
+        km: "17.000",
+        fuel: "Benzin",
+        transmission: "Manuel / 250cc",
+        price: "170.000 TL",
+        color: "Turuncu / Siyah",
+        status: "available",
+        image: "assets/img/vehicles/srk250_4.jpg",
+        images: [
+            "assets/img/vehicles/srk250_4.jpg",
+            "assets/img/vehicles/srk250_2.jpg",
+            "assets/img/vehicles/srk250_1.jpg",
+            "assets/img/vehicles/srk250_3.jpg"
+        ],
+        description: "2024 model RKS SRK 250RR. Ruhsatlı, faturalı ve son derece temiz bir araçtır. Henüz 17.000 kilometrededir. Hasar kaydı kesinlikle yoktur. Takas seçeneği bulunmamaktadır. Ekstra olarak Amerikan Park uygulaması mevcuttur. Performanslı, konforlu ve çekici bir motordur. Pazarlık payı vardır, detaylar için iletişime geçebilirsiniz.",
+        location: "Mersin / Yenişehir"
+    },
+    {
+        id: 8,
+        title: "Kuba Newlight 50 Plus (125cc Yükseltilmiş)",
+        category: "motorcycle",
+        year: 2026,
+        km: "2.000",
+        fuel: "Benzin",
+        transmission: "Otomatik / 125cc",
+        price: "60.000 TL",
+        color: "Mavi (Mat Lacivert)",
+        status: "available",
+        image: "assets/img/vehicles/newlight_4.jpg",
+        images: [
+            "assets/img/vehicles/newlight_4.jpg",
+            "assets/img/vehicles/newlight_3.jpg",
+            "assets/img/vehicles/newlight_1.jpg",
+            "assets/img/vehicles/newlight_2.jpg"
+        ],
+        description: "Henüz 2 aylık, sıfır ayarında motor! Ruhsatta 50cc geçmektedir, dolayısıyla B sınıfı ehliyetle kullanılabilir, MTV ve zorunlu trafik sigortasından muaftır. Serviste 125cc silindir hacmine yükseltilmiştir, çekişi ve gidişi mükemmeldir. Sadece 2.000 km'dedir. Toplamda 80.000 TL'ye mal olmuştur, acil nakit ihtiyacından dolayı bu fiyata bırakıyorum. Kaçırılmayacak fırsat!",
+        location: "Mersin / Yenişehir"
+    },
+    {
         id: 1,
         title: "Volta VS1 (Yerle Bir Basık & 6 Akülü)",
         category: "motorcycle",
