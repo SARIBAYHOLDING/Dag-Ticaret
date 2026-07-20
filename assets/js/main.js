@@ -5,6 +5,27 @@
 // Vehicle Database (Volta VS1 Electric Motor)
 const vehicles = [
     {
+        id: 13,
+        title: "Renault Clio Symbol 1.5 dCi",
+        category: "car",
+        year: 2008,
+        km: "280.000",
+        fuel: "Dizel",
+        transmission: "Manuel / 1.5 dCi",
+        price: "355.000 TL",
+        color: "Gümüş Gri",
+        status: "available",
+        image: "assets/img/vehicles/clio_symbol_1.jpg",
+        images: [
+            "assets/img/vehicles/clio_symbol_1.jpg",
+            "assets/img/vehicles/clio_symbol_2.jpg",
+            "assets/img/vehicles/clio_symbol_3.jpg",
+            "assets/img/vehicles/clio_symbol_4.jpg"
+        ],
+        description: "2008 model Renault Clio Symbol 1.5 dCi Dizel. 280.000 km'dedir. Kaput orijinali ile değişmiştir, 2 parça lokal boyası mevcuttur. Tüm ağır ve sıvı bakımları yeni yapılmıştır. Masrafsız, son derece ekonomik ve diri bir araçtır. 355.000 TL istenmekte olup minik pazarlık payı vardır.",
+        location: "Mersin / Yenişehir"
+    },
+    {
         id: 12,
         title: "Tofaş Şahin 1.6 (Çekme Belgeli)",
         category: "car",
